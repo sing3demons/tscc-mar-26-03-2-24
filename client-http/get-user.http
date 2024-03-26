@@ -1,0 +1,4 @@
+@uri=http://localhost:3000
+
+
+GET {{uri}}/users HTTP/1.1

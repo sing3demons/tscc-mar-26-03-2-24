@@ -1,0 +1,29 @@
+{
+  "name": "tscc-mar-26-03-2-24",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "dev": "tsx watch src/main.ts"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/morgan": "^1.9.9",
+    "@types/node": "^20.11.30",
+    "@types/uuid": "^9.0.8",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "tslib": "^2.6.2",
+    "uuid": "^9.0.1",
+    "zod": "^3.22.4"
+  }
+}
