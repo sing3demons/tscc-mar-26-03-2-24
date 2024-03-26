@@ -4,7 +4,7 @@ import { userRoutes } from './user/index.js'
 const router = Router()
 router.use('/users', userRoutes)
 
-router.use('/', (req: Request, res: Response) => {
+router.get('/', (req: Request, res: Response) => {
   res.json({ message: 'Home' })
 })
 

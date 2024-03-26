@@ -1,4 +1,4 @@
-import { Database } from '../core/database.js'
+import { Database } from '../core/mock/database.js'
 import { UserModel } from './user.model.js'
 
 export class UserRepository {

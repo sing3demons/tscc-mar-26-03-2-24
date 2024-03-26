@@ -1,8 +1,8 @@
-import { Database } from '../core/database.js'
 import { UserModel } from './user.model.js'
 import { v4 as uuidv4 } from 'uuid'
 import { UserRepository } from './user.repository.js'
 import { UserController } from './user.controller.js'
+import { Database } from '../core/mock/database.js'
 
 const db = new Database<UserModel>('users', {
   defaultData: [
